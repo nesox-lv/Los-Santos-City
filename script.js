@@ -30,7 +30,7 @@ const contentData = {
     },
 
     'reglement_general': {
-        title: "🗃️ Règlement",
+        title: "🗃️ Règlement Général",
         text: `
             <h4>Bienvenue sur la page du règlement</h4>
             <p>Vous trouverez ici les règles qui régissent notre serveur. Veuillez les lire attentivement pour garantir une expérience de jeu agréable et harmonieuse pour tous.</p>
@@ -157,6 +157,61 @@ const contentData = {
                 <li><b>/me :</b> Action physique</li>
                 <li><b>/pmms :</b> Gestion audio</li>
             </ul>
+        `
+    },
+
+    'boutique': {
+        title: "🛒 Boutique Serveur",
+        text: `
+            <p>Soutenez <b>Los Santos City</b> et obtenez des avantages exclusifs en jeu. Tous les fonds servent à payer l'hébergement et le développement.</p>
+            
+            <div class="info-box important">
+                ⚠️ Une fois l'achat effectué, ouvrez un ticket "Donation" sur Discord pour recevoir vos biens.
+            </div>
+
+            <div class="shop-grid">
+                
+                <div class="shop-card">
+                    <img src="https://cdn.discordapp.com/attachments/1395482307552346265/1467506779213791504/task_01kgcn07yfeawsb5y2whd91bw62F1769951249_img_1.png" class="shop-img" alt="VIP Gold">
+                    <div class="shop-content">
+                        <div class="shop-title">Pack VIP Gold</div>
+                        <div class="shop-price">10.00€ / mois</div>
+                        <div class="shop-desc">Priorité file d'attente, Double XP métier, Salaire x1.5, Véhicule exclusif "Neon Sport".</div>
+                        <a href="#" class="btn-buy">ACHETER</a>
+                    </div>
+                </div>
+
+                <div class="shop-card">
+                    <img src="https://cdn.discordapp.com/attachments/1395482307552346265/1467506779213791504/task_01kgcn07yfeawsb5y2whd91bw62F1769951249_img_1.png" class="shop-img" alt="Pack Import">
+                    <div class="shop-content">
+                        <div class="shop-title">Pack Import</div>
+                        <div class="shop-price">25.00€</div>
+                        <div class="shop-desc">Importez le véhicule de votre choix (sous validation staff). Customisation offerte.</div>
+                        <a href="#" class="btn-buy">ACHETER</a>
+                    </div>
+                </div>
+
+                <div class="shop-card">
+                    <img src="https://cdn.discordapp.com/attachments/1395482307552346265/1467506779213791504/task_01kgcn07yfeawsb5y2whd91bw62F1769951249_img_1.png" class="shop-img" alt="Pack Gang">
+                    <div class="shop-content">
+                        <div class="shop-title">Pack Création Gang</div>
+                        <div class="shop-price">50.00€</div>
+                        <div class="shop-desc">QG mappé, Coffre sécurisé, Vestiaire, Garage privé + 1 Véhicule organisation.</div>
+                        <a href="#" class="btn-buy">ACHETER</a>
+                    </div>
+                </div>
+
+                <div class="shop-card">
+                    <img src="https://cdn.discordapp.com/attachments/1395482307552346265/1467506779213791504/task_01kgcn07yfeawsb5y2whd91bw62F1769951249_img_1.png" class="shop-img" alt="Custom Plaque">
+                    <div class="shop-content">
+                        <div class="shop-title">Plaque Personnalisée</div>
+                        <div class="shop-price">5.00€</div>
+                        <div class="shop-desc">Changez l'immatriculation d'un véhicule de votre choix (8 caractères max).</div>
+                        <a href="#" class="btn-buy">ACHETER</a>
+                    </div>
+                </div>
+
+            </div>
         `
     }
 };
